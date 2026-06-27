@@ -19,7 +19,8 @@ import requests
 # =============================================
 # SOZLAMALAR — shu joyni o'zgartiring
 # =============================================
-BOT_TOKEN = "8922682957:AAEMlQgEsBXfo_4MRngkupfdlBHCnf8YCfI"   # @BotFather dan olingan token
+import os
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8922682957:AAEMlQgEsBXfo_4MRngkupfdlBHCnf8YCfI")
 # =============================================
 
 logging.basicConfig(
