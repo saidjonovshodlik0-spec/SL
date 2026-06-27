@@ -195,7 +195,7 @@ def main() -> None:
     app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, handle_message))
 
     print("🤖 Bot ishga tushdi! To'xtatish uchun Ctrl+C bosing.")
-    app.run_polling(allowed_updates=Update.ALL_TYPES)
+    app.run_polling(allowed_updates=Update.ALL_TYPES, connect_timeout=30, read_timeout=30)
 
 
 if __name__ == "__main__":
