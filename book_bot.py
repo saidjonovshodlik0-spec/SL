@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """
 📚 Kitoblar bo'yicha ma'lumot beruvchi Telegram Bot
 Ishlatish: pip install python-telegram-bot requests
